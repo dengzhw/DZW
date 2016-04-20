@@ -15,6 +15,8 @@
 		09FBCDE61CC728F000AF3F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FBCDE41CC728F000AF3F50 /* LaunchScreen.storyboard */; };
 		09FBCDF11CC728F000AF3F50 /* SwiftCoreGraphicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FBCDF01CC728F000AF3F50 /* SwiftCoreGraphicTests.swift */; };
 		09FBCDFC1CC728F000AF3F50 /* SwiftCoreGraphicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FBCDFB1CC728F000AF3F50 /* SwiftCoreGraphicUITests.swift */; };
+		09FBCE0A1CC7297D00AF3F50 /* PushButtomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FBCE091CC7297D00AF3F50 /* PushButtomView.swift */; };
+		09FBCE0C1CC7305600AF3F50 /* CoreGraphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FBCE0B1CC7305600AF3F50 /* CoreGraphicView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		09FBCDF71CC728F000AF3F50 /* SwiftCoreGraphicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCoreGraphicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FBCDFB1CC728F000AF3F50 /* SwiftCoreGraphicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoreGraphicUITests.swift; sourceTree = "<group>"; };
 		09FBCDFD1CC728F000AF3F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FBCE091CC7297D00AF3F50 /* PushButtomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtomView.swift; sourceTree = "<group>"; };
+		09FBCE0B1CC7305600AF3F50 /* CoreGraphicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreGraphicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				09FBCDD81CC728F000AF3F50 /* AppDelegate.swift */,
 				09FBCDDA1CC728F000AF3F50 /* ViewController.swift */,
+				09FBCE0B1CC7305600AF3F50 /* CoreGraphicView.swift */,
 				09FBCDDC1CC728F000AF3F50 /* Main.storyboard */,
 				09FBCDE21CC728F000AF3F50 /* Assets.xcassets */,
 				09FBCDE41CC728F000AF3F50 /* LaunchScreen.storyboard */,
 				09FBCDE71CC728F000AF3F50 /* Info.plist */,
 				09FBCDDF1CC728F000AF3F50 /* SwiftCoreGraphic.xcdatamodeld */,
+				09FBCE091CC7297D00AF3F50 /* PushButtomView.swift */,
 			);
 			path = SwiftCoreGraphic;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09FBCE0C1CC7305600AF3F50 /* CoreGraphicView.swift in Sources */,
 				09FBCDE11CC728F000AF3F50 /* SwiftCoreGraphic.xcdatamodeld in Sources */,
+				09FBCE0A1CC7297D00AF3F50 /* PushButtomView.swift in Sources */,
 				09FBCDDB1CC728F000AF3F50 /* ViewController.swift in Sources */,
 				09FBCDD91CC728F000AF3F50 /* AppDelegate.swift in Sources */,
 			);

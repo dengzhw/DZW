@@ -12,6 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let gview :CoreGraphicView = CoreGraphicView();
+        gview.frame = CGRectMake(0, 0, 300, 300)
+        gview.center.x = self.view.center.x
+        gview.backgroundColor = UIColor.whiteColor()
+        self.view.addSubview(gview);
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
